@@ -48,3 +48,36 @@ header {
     border-radius: 10px;
     width: 680px;
 }
+
+/* Media queries para telas menores */
+@media only screen and (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    #main {
+        width: 80%;
+    }
+    #conteudo {
+        width: 90%;
+    }
+    #logo {
+        width: 250px;
+    }
+    #imagem {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Estilos para telas menores que 480px */
+    #main {
+        width: 90%;
+    }
+    #conteudo {
+        width: 95%;
+    }
+    #logo {
+        width: 150px;
+    }
+    #imagem {
+        width: 250px;
+    }
+}
